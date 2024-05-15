@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Navbar } from './components/NavBar/navbar';
+import { Intro } from './components/Intro/intro';
+import { Skill } from './components/Skills/skill';
+import { Works } from './components/Works/works';
+import { Contact } from './components/Contact/contact';
+import { Footer } from './components/Footer/footer';
+import { Projct } from './components/Projcts/Projct';
 
 function App() {
+  const projectLinks = {
+    weatherApp: "https://github.com/tejeswar2/wapp",
+    ChatApp: "https://github.com/tejeswar2/chatApp",
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Intro />
+      <Skill />
+      <Works />
+      <Projct githubLinkWeather={projectLinks.weatherApp} githubLinkChat={projectLinks.ChatApp} />
+      <Contact />
+      <Footer />
     </div>
   );
 }

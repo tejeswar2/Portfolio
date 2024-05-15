@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#contactpage {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactpagetitle{
+    font-weight: 3rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+
+}
+
+
+
+.contactdesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name, .mail, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+
+.submitbtn{
+    background: white;
+    border:none ;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.6rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+ object-fit: cover;
+ height: 5rem;
+ width:  5rem ;
+ margin: 0 0.75rem;
+
+}
