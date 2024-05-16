@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cb28786e.css",
+    "main.js": "/portfolio/static/js/main.90605dc2.js",
+    "static/media/Tejeswar_Resume.pdf": "/portfolio/static/media/Tejeswar_Resume.a8ddea0625aefa0be987.pdf",
+    "static/media/logoT.jpg": "/portfolio/static/media/logoT.693ac42fb04bd7b83c0e.jpg",
+    "static/media/webpng.avif": "/portfolio/static/media/webpng.092b2135a85244508f2a.avif",
+    "index.html": "/portfolio/index.html",
+    "main.cb28786e.css.map": "/portfolio/static/css/main.cb28786e.css.map",
+    "main.90605dc2.js.map": "/portfolio/static/js/main.90605dc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb28786e.css",
+    "static/js/main.90605dc2.js"
+  ]
+}
